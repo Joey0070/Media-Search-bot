@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('🔍Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots🐾', url='https://t.me/jns_bots')
+                        InlineKeyboardButton('Channel🐾', url='https://t.me/joinchat/Wl2qJsJpNhg0OWVl')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -100,16 +100,16 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("🔍Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("More Bots🐾", url="https://t.me/jns_bots")
+                        InlineKeyboardButton("Channel🐾", url="https://t.me/joinchat/Wl2qJsJpNhg0OWVl")
                     ],
                     [
                         InlineKeyboardButton("🙈About🙈", callback_data="about")
                     ],
                     [
-                        InlineKeyboardButton('💤Dev💤', url='https://t.me/jintons')
+                        InlineKeyboardButton('💤Dev💤', url='https://t.me/DeepakV1111_bot')
                     ],
                     [
-                        InlineKeyboardButton("🥳Invite friends 🔫", url='https://telegram.me/share/url?url=https://t.me/JNS_MOVIE_BOT' )
+                        InlineKeyboardButton("🥳Invite friends 🔫", url='https://telegram.me/share/url?url=https://t.me/joinchat/Wl2qJsJpNhg0OWVl' )
                     ]
                 ]
             )
@@ -198,16 +198,16 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('💫ＪƝ⟆ ᗷ〇Ƭ⟆💫', url='https://t.me/jns_bots'),
-            InlineKeyboardButton('🤠MoViEs🤠', url='https://t.me/FCfilmcornerfc')
+            InlineKeyboardButton('💫Dev', url='https://t.me/DeepakV1111_bot'),
+            InlineKeyboardButton('🤠Channel🤠', url='https://t.me/joinchat/Wl2qJsJpNhg0OWVl')
         ],
         [
-            InlineKeyboardButton("🥳Invite friends 🔫", url='https://telegram.me/share/url?url=https://t.me/JNS_MOVIE_BOT' )
+            InlineKeyboardButton("🥳Invite friends 🔫", url='https://telegram.me/share/url?url=https://t.me/joinchat/Wl2qJsJpNhg0OWVl' )
         ],
         [
-            InlineKeyboardButton('Dev💤', url='https://t.me/jintons'),
-            InlineKeyboardButton('Discussion🐾', url='https://t.me/jns_fc_bots')
+            InlineKeyboardButton('Dev💤', url='https://t.me/DeepakV1111_bot'),
+            InlineKeyboardButton('Feedbacks🐾', url='https://t.me/DeepakV1111_bot')
         ]
         ]
-    await message.reply(text="""<b>Developer : <a href='https://t.me/jns_bots'>ＪƝ⟆ ᗷ〇Ƭ⟆ 💫</a>\n\nLanguage : <code>Python3 🥀</code>\n\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio 🧾</a>\n\nMovieS : <a href='https://t.me/FCfilmcornerfc'>FILM CORNER™🌃</a>\n\nDiscussion : <a href='https://t.me/Jns_fc_bots'>JNS BOTS🍻</a> </b>""", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="""<b>Developer : <a href='https://t.me/DeepakV1111_bot'>JOEY</a>\n\nLanguage : <code>Python3 🥀</code>\n\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio 🧾</a>\n\nChannel : <a href='https://t.me/joinchat/Wl2qJsJpNhg0OWVl'>Cinema Lokham</a>\n\nFeedbacks : <a href='https://t.me/DeepakV1111_bot'>JOEY</a> </b>""", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
     
