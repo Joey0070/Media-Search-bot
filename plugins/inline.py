@@ -84,13 +84,13 @@ def get_reply_markup(query):
     buttons = [
         [
             InlineKeyboardButton('🔍Search again', switch_inline_query_current_chat=query),
-            InlineKeyboardButton('More Bots🐾', url='https://t.me/jns_bots')
+            InlineKeyboardButton('Channel🐾', url='https://t.me/joinchat/Wl2qJsJpNhg0OWVl')
         ],
         [
-            InlineKeyboardButton('💤Dev💤', url='https://t.me/jintons')
+            InlineKeyboardButton('💤Dev💤', url='https://t.me/DeepakV1111_bot')
         ],
         [
-            InlineKeyboardButton("🥳Invite friends 🔫", url='https://telegram.me/share/url?url=https://t.me/JNS_MOVIE_BOT' )
+            InlineKeyboardButton("🥳Invite friends 🔫", url='https://telegram.me/share/url?url=https://t.me/joinchat/Wl2qJsJpNhg0OWVl' )
         ]
         ]
     return InlineKeyboardMarkup(buttons)
