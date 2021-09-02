@@ -272,11 +272,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('💫ＪƝ⟆ ᗷ〇Ƭ⟆💫', url='https://t.me/jns_bots'),
-                    InlineKeyboardButton('🤠MoViEs🤠', url='https://t.me/FCfilmcornerfc')
+                    InlineKeyboardButton('💫Dev', url='https://t.me/DeepakV1111_bot'),
+                    InlineKeyboardButton('🤠Channel🤠', url='https://t.me/joinchat/Wl2qJsJpNhg0OWVl')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/jns_bots'>ＪƝ⟆ ᗷ〇Ƭ⟆ 💫</a>\n\nLanguage : <code>Python3 🥀</code>\n\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio 🧾</a>\n\nMovieS : <a href='https://t.me/FCfilmcornerfc'>FILM CORNER™🌃</a>\n\nDiscussion : <a href='https://t.me/Jns_fc_bots'>JNS BOTS🍻</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/DeepakV1111_bot'>JOEY</a>\n\nLanguage : <code>Python3 🥀</code>\n\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio 🧾</a>\n\nChannel : <a href='https://t.me/joinchat/Wl2qJsJpNhg0OWVl'>Cinema Lokham</a>\n\nFeedbacks : <a href='https://t.me/DeepakV1111_bot'>JOEY</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -297,8 +297,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🐾More Bots', url='https://t.me/jns_bots'),
-                        InlineKeyboardButton('Discussion🐾', url='https://t.me/jns_fc_bots')
+                        InlineKeyboardButton('🐾Dev', url='https://t.me/DeepakV1111_bot'),
+                        InlineKeyboardButton('Feedbacks🐾', url='https://t.me/DeepakV1111_bot')
                     ]
                     ]
                 
@@ -329,8 +329,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🐾More Bots', url='https://t.me/jns_bots'),
-                        InlineKeyboardButton('Discussion🐾', url='https://t.me/jns_fc_bots')
+                        InlineKeyboardButton('🐾Dev', url='https://t.me/DeepakV1111_bot'),
+                        InlineKeyboardButton('Feedbacks🐾', url='https://t.me/DeepakV1111_bot')
                     ]
                     ]
                 
